@@ -209,8 +209,8 @@ RAG 检索由 `HybridLangChainRetriever` 封装，兼容 LangChain Retriever 接
 
 | 评测项 | 样本数 | 结果 |
 | --- | ---: | ---: |
-| 意图识别 Accuracy | 20 | 1.0000 |
-| 检索 Recall@3 | 20 | 1.0000 |
+| 意图识别 Accuracy | 20 | 95% |
+| 检索 Recall@3 | 20 | 95% |
 | 检索 MRR | 20 | 0.9750 |
 | 内容 Accuracy | 20 | 0.8500 |
 | 平均事实命中率 | 20 | 0.8250 |
