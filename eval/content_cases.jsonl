@@ -1,0 +1,20 @@
+{"id":"content_001","question":"LOGO! 9手册适用于哪个设备系列？","expected_facts":["LOGO! 9","6ED1052-xxx08-0BA3"],"expected_pages":[5],"expected_files":["西门子LOGO手册.pdf"]}
+{"id":"content_002","question":"LOGO! 9能兼容之前版本设备吗？","expected_facts":["不兼容","之前任何设备系列"],"expected_pages":[5],"expected_files":["西门子LOGO手册.pdf"]}
+{"id":"content_003","question":"LOGO! 9支持多少网络数字量输入和输出？","expected_facts":["NI1到NI512","NQ1到NQ480"],"expected_pages":[16],"expected_files":["西门子LOGO手册.pdf"]}
+{"id":"content_004","question":"LOGO!型号标识里的E和o分别表示什么？","expected_facts":["E表示以太网接口","o表示不带显示屏"],"expected_pages":[19],"expected_files":["西门子LOGO手册.pdf"]}
+{"id":"content_005","question":"LOGO! 24CE的供电电压和输出类型是什么？","expected_facts":["24V DC","晶体管输出","24V/0.3A"],"expected_pages":[20],"expected_files":["西门子LOGO手册.pdf"]}
+{"id":"content_006","question":"LOGO! 9 TDE与旧版LOGO!是否兼容？","expected_facts":["仅兼容LOGO! 9","6ED1055-1XXXX-0BA3"],"expected_pages":[21],"expected_files":["西门子LOGO手册.pdf"]}
+{"id":"content_007","question":"安装LOGO!模块时上下和前方最少预留多少空间？","expected_facts":["至少25mm","上方和下方","模块正面与机柜内壁"],"expected_pages":[36],"expected_files":["西门子LOGO手册.pdf"]}
+{"id":"content_008","question":"安装LOGO! TDE的开孔尺寸和面板厚度要求是什么？","expected_facts":["119mm×78.5mm","1.5mm到4mm","IP65"],"expected_pages":[41],"expected_files":["西门子LOGO手册.pdf"]}
+{"id":"content_009","question":"LOGO! 230V机型、24V/12V机型与TDE的供电要求分别是什么？","expected_facts":["115V AC/DC和240V AC/DC","24V DC、24V AC或12V DC","12V DC或24V AC/DC"],"expected_pages":[43],"expected_files":["西门子LOGO手册.pdf"]}
+{"id":"content_010","question":"LOGO! 12/24RCE和230RCE的熔断器规格分别是多少？","expected_facts":["≤0.8A","1.0A","CLASS-CC"],"expected_pages":[44],"expected_files":["西门子LOGO手册.pdf"]}
+{"id":"content_011","question":"LOGO!的AC和DC电源回路如何做浪涌保护？","expected_facts":["MOV","高于额定电压20%","S10K300E2K1","BVT AVD 24"],"expected_pages":[44],"expected_files":["西门子LOGO手册.pdf"]}
+{"id":"content_012","question":"LOGO! ...E以太网接口速率和网线要求是什么？","expected_facts":["10/100Mbit/s","RJ45","标准5类屏蔽双绞线","FE端子接地"],"expected_pages":[53],"expected_files":["西门子LOGO手册.pdf"]}
+{"id":"content_013","question":"LOGO!主机模块STOP和RUN模式有什么区别？","expected_facts":["STOP和RUN","LOGO! Basic","LOGO! Pure","LED红色","LED绿色"],"expected_pages":[55],"expected_files":["西门子LOGO手册.pdf"]}
+{"id":"content_014","question":"LOGO!扩展模块红灯常亮和绿灯闪烁分别代表什么？","expected_facts":["红色常亮","断开连接","绿灯闪烁","部分I/O端口已占用"],"expected_pages":[55],"expected_files":["西门子LOGO手册.pdf"]}
+{"id":"content_015","question":"SCALANCE MUB852-1和MUM856-1的订货号是什么？","expected_facts":["SCALANCE MUB852-1","6GK5852-1EA10-1AA1","SCALANCE MUM856-1","6GK5856-2EA10-3AA1"],"expected_pages":[1],"expected_files":["西门子工业移动路由器产品手册.pdf"]}
+{"id":"content_016","question":"SCALANCE B1版本支持哪些5G/LTE/UMTS频段，是否支持GNSS？","expected_facts":["5G SA","5G NSA","LTE","UMTS","GNSS不支持"],"expected_pages":[2],"expected_files":["西门子工业移动路由器产品手册.pdf"]}
+{"id":"content_017","question":"SCALANCE连接电源时对人员资质和安装环境有哪些要求？","expected_facts":["资质和授权的专业人员","仅在设备断电时","IP20"],"expected_pages":[4],"expected_files":["西门子工业移动路由器产品手册.pdf"]}
+{"id":"content_018","question":"SCALANCE的IP30/IP65/67安装要求和外部电源绝缘要求是什么？","expected_facts":["IP30","IP65/67","加强绝缘或双重绝缘"],"expected_pages":[5],"expected_files":["西门子工业移动路由器产品手册.pdf"]}
+{"id":"content_019","question":"危险环境下使用SCALANCE的时间限制是什么，能否带电开盖？","expected_facts":["每年最多10小时","每次最多30分钟","间隔至少四小时","请勿在接通电源情况下打开设备"],"expected_pages":[7],"expected_files":["西门子工业移动路由器产品手册.pdf"]}
+{"id":"content_020","question":"在PELV下运行会影响哪些认证？危险区域能墙装吗？清洁时有什么禁忌？","expected_facts":["UL","ATEX","IECEx","CCC-Ex","不得在危险区域中将设备安装到墙上","请勿使用溶剂"],"expected_pages":[8,10,11],"expected_files":["西门子工业移动路由器产品手册.pdf"]}

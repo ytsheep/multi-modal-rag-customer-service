@@ -1,0 +1,16 @@
+backend/.env
+backend/data/
+backend/.venv/
+frontend/node_modules/
+frontend/dist/
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+
+# Local Docker deployment files
+.dockerignore
+docker-compose.yml
+backend/Dockerfile
+frontend/Dockerfile
+frontend/nginx.conf

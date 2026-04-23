@@ -1,0 +1,20 @@
+{"id":"retrieval_001","question":"LOGO! 9手册适用于哪个设备系列？","expected_chunk_ids":["667e43747d6c4e7e9be5b8a9a2dfc378-0006"]}
+{"id":"retrieval_002","question":"LOGO! 9能兼容之前版本设备吗？","expected_chunk_ids":["667e43747d6c4e7e9be5b8a9a2dfc378-0006"]}
+{"id":"retrieval_003","question":"LOGO! 9支持多少网络数字量输入和输出？","expected_chunk_ids":["667e43747d6c4e7e9be5b8a9a2dfc378-0018"]}
+{"id":"retrieval_004","question":"LOGO!型号标识里的E和o分别表示什么？","expected_chunk_ids":["667e43747d6c4e7e9be5b8a9a2dfc378-0021"]}
+{"id":"retrieval_005","question":"LOGO! 24CE的供电电压和输出类型是什么？","expected_chunk_ids":["667e43747d6c4e7e9be5b8a9a2dfc378-0023"]}
+{"id":"retrieval_006","question":"LOGO! 9 TDE与旧版LOGO!是否兼容？","expected_chunk_ids":["667e43747d6c4e7e9be5b8a9a2dfc378-0027"]}
+{"id":"retrieval_007","question":"安装LOGO!模块时上下和前方最少预留多少空间？","expected_chunk_ids":["667e43747d6c4e7e9be5b8a9a2dfc378-0054"]}
+{"id":"retrieval_008","question":"安装LOGO! TDE的开孔尺寸和面板厚度要求是什么？","expected_chunk_ids":["667e43747d6c4e7e9be5b8a9a2dfc378-0059"]}
+{"id":"retrieval_009","question":"LOGO! 230V机型、24V/12V机型与TDE的供电要求分别是什么？","expected_chunk_ids":["667e43747d6c4e7e9be5b8a9a2dfc378-0063"]}
+{"id":"retrieval_010","question":"LOGO! 12/24RCE和230RCE的熔断器规格分别是多少？","expected_chunk_ids":["667e43747d6c4e7e9be5b8a9a2dfc378-0065"]}
+{"id":"retrieval_011","question":"LOGO!的AC和DC电源回路如何做浪涌保护？","expected_chunk_ids":["667e43747d6c4e7e9be5b8a9a2dfc378-0066"]}
+{"id":"retrieval_012","question":"LOGO! ...E以太网接口速率和网线要求是什么？","expected_chunk_ids":["667e43747d6c4e7e9be5b8a9a2dfc378-0078"]}
+{"id":"retrieval_013","question":"LOGO!主机模块STOP和RUN模式有什么区别？","expected_chunk_ids":["667e43747d6c4e7e9be5b8a9a2dfc378-0081"]}
+{"id":"retrieval_014","question":"LOGO!扩展模块红灯常亮和绿灯闪烁分别代表什么？","expected_chunk_ids":["667e43747d6c4e7e9be5b8a9a2dfc378-0082"]}
+{"id":"retrieval_015","question":"SCALANCE MUB852-1和MUM856-1的订货号是什么？","expected_chunk_ids":["de1393fd855440d2aa55a8cf635d9dcd-0002"]}
+{"id":"retrieval_016","question":"SCALANCE B1版本支持哪些5G/LTE/UMTS频段，是否支持GNSS？","expected_chunk_ids":["de1393fd855440d2aa55a8cf635d9dcd-0009"]}
+{"id":"retrieval_017","question":"SCALANCE连接电源时对人员资质和安装环境有哪些要求？","expected_chunk_ids":["de1393fd855440d2aa55a8cf635d9dcd-0016"]}
+{"id":"retrieval_018","question":"SCALANCE的IP30/IP65/67安装要求和外部电源绝缘要求是什么？","expected_chunk_ids":["de1393fd855440d2aa55a8cf635d9dcd-0017"]}
+{"id":"retrieval_019","question":"危险环境下使用SCALANCE的时间限制是什么，能否带电开盖？","expected_chunk_ids":["de1393fd855440d2aa55a8cf635d9dcd-0024"]}
+{"id":"retrieval_020","question":"在PELV下运行会影响哪些认证？危险区域能墙装吗？清洁时有什么禁忌？","expected_chunk_ids":["de1393fd855440d2aa55a8cf635d9dcd-0025","de1393fd855440d2aa55a8cf635d9dcd-0030","de1393fd855440d2aa55a8cf635d9dcd-0034"]}

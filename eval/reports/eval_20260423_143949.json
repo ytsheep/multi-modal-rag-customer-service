@@ -1,0 +1,195 @@
+{
+  "created_at": "2026-04-23T14:39:49",
+  "collection": "eval_product_manual_chunks",
+  "seeded": false,
+  "seeded_info": null,
+  "results": [
+    {
+      "name": "intent",
+      "total": 20,
+      "accuracy": 1.0,
+      "details": [
+        {
+          "id": "intent_001",
+          "question": "你好",
+          "expected": "direct_chat",
+          "actual": "direct_chat",
+          "confidence": 0.95,
+          "reason": "matched small-talk pattern",
+          "ok": true
+        },
+        {
+          "id": "intent_002",
+          "question": "你是谁？",
+          "expected": "direct_chat",
+          "actual": "direct_chat",
+          "confidence": 0.95,
+          "reason": "matched small-talk pattern",
+          "ok": true
+        },
+        {
+          "id": "intent_003",
+          "question": "谢谢，辛苦了",
+          "expected": "direct_chat",
+          "actual": "direct_chat",
+          "confidence": 0.72,
+          "reason": "short non-product utterance",
+          "ok": true
+        },
+        {
+          "id": "intent_004",
+          "question": "讲个笑话",
+          "expected": "direct_chat",
+          "actual": "direct_chat",
+          "confidence": 0.95,
+          "reason": "matched small-talk pattern",
+          "ok": true
+        },
+        {
+          "id": "intent_005",
+          "question": "再见",
+          "expected": "direct_chat",
+          "actual": "direct_chat",
+          "confidence": 0.95,
+          "reason": "matched small-talk pattern",
+          "ok": true
+        },
+        {
+          "id": "intent_006",
+          "question": "什么是向量数据库？",
+          "expected": "direct_chat",
+          "actual": "direct_chat",
+          "confidence": 0.76,
+          "reason": "general explanation question",
+          "ok": true
+        },
+        {
+          "id": "intent_007",
+          "question": "简单介绍一下大语言模型",
+          "expected": "direct_chat",
+          "actual": "direct_chat",
+          "confidence": 0.76,
+          "reason": "general explanation question",
+          "ok": true
+        },
+        {
+          "id": "intent_008",
+          "question": "为什么天空是蓝色的？",
+          "expected": "direct_chat",
+          "actual": "direct_chat",
+          "confidence": 0.76,
+          "reason": "general explanation question",
+          "ok": true
+        },
+        {
+          "id": "intent_009",
+          "question": "产品A的额定输入电压是多少？",
+          "expected": "rag_qa",
+          "actual": "rag_qa",
+          "confidence": 0.9,
+          "reason": "contains product manual keywords",
+          "ok": true
+        },
+        {
+          "id": "intent_010",
+          "question": "手册里写的产品B输出电流是多少？",
+          "expected": "rag_qa",
+          "actual": "rag_qa",
+          "confidence": 0.9,
+          "reason": "contains product manual keywords",
+          "ok": true
+        },
+        {
+          "id": "intent_011",
+          "question": "请依据说明书告诉我产品A怎么接线",
+          "expected": "rag_qa",
+          "actual": "rag_qa",
+          "confidence": 0.9,
+          "reason": "contains product manual keywords",
+          "ok": true
+        },
+        {
+          "id": "intent_012",
+          "question": "产品B安装时上下需要预留多少空间？",
+          "expected": "rag_qa",
+          "actual": "rag_qa",
+          "confidence": 0.9,
+          "reason": "contains product manual keywords",
+          "ok": true
+        },
+        {
+          "id": "intent_013",
+          "question": "两个产品的工作温度范围有什么区别？",
+          "expected": "rag_qa",
+          "actual": "rag_qa",
+          "confidence": 0.9,
+          "reason": "contains product manual keywords",
+          "ok": true
+        },
+        {
+          "id": "intent_014",
+          "question": "第3页提到的DIN导轨安装要求是什么？",
+          "expected": "rag_qa",
+          "actual": "rag_qa",
+          "confidence": 0.9,
+          "reason": "contains product manual keywords",
+          "ok": true
+        },
+        {
+          "id": "intent_015",
+          "question": "产品A的ERROR灯变红代表什么？",
+          "expected": "rag_qa",
+          "actual": "rag_qa",
+          "confidence": 0.9,
+          "reason": "contains product manual keywords",
+          "ok": true
+        },
+        {
+          "id": "intent_016",
+          "question": "产品B短路保护如何恢复？",
+          "expected": "rag_qa",
+          "actual": "rag_qa",
+          "confidence": 0.9,
+          "reason": "contains product manual keywords",
+          "ok": true
+        },
+        {
+          "id": "intent_017",
+          "question": "请引用原文说明产品A的通信接口",
+          "expected": "rag_qa",
+          "actual": "rag_qa",
+          "confidence": 0.9,
+          "reason": "contains product manual keywords",
+          "ok": true
+        },
+        {
+          "id": "intent_018",
+          "question": "这份PDF里有没有写防护等级？",
+          "expected": "rag_qa",
+          "actual": "rag_qa",
+          "confidence": 0.9,
+          "reason": "contains product manual keywords",
+          "ok": true
+        },
+        {
+          "id": "intent_019",
+          "question": "西门子产品B的订货型号是什么？",
+          "expected": "rag_qa",
+          "actual": "rag_qa",
+          "confidence": 0.9,
+          "reason": "contains product manual keywords",
+          "ok": true
+        },
+        {
+          "id": "intent_020",
+          "question": "产品A和产品B都支持PROFINET吗？",
+          "expected": "rag_qa",
+          "actual": "rag_qa",
+          "confidence": 0.9,
+          "reason": "contains product manual keywords",
+          "ok": true
+        }
+      ]
+    }
+  ]
+}

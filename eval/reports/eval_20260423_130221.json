@@ -1,0 +1,1496 @@
+{
+  "created_at": "2026-04-23T13:02:21",
+  "collection": "eval_product_manual_chunks",
+  "seeded": true,
+  "seeded_info": {
+    "collection": "eval_product_manual_chunks",
+    "chunks": 15
+  },
+  "results": [
+    {
+      "name": "intent",
+      "total": 20,
+      "accuracy": 1.0,
+      "details": [
+        {
+          "id": "intent_001",
+          "question": "你好",
+          "expected": "direct_chat",
+          "actual": "direct_chat",
+          "confidence": 0.95,
+          "reason": "matched small-talk pattern",
+          "ok": true
+        },
+        {
+          "id": "intent_002",
+          "question": "你是谁？",
+          "expected": "direct_chat",
+          "actual": "direct_chat",
+          "confidence": 0.95,
+          "reason": "matched small-talk pattern",
+          "ok": true
+        },
+        {
+          "id": "intent_003",
+          "question": "谢谢，辛苦了",
+          "expected": "direct_chat",
+          "actual": "direct_chat",
+          "confidence": 0.72,
+          "reason": "short non-product utterance",
+          "ok": true
+        },
+        {
+          "id": "intent_004",
+          "question": "讲个笑话",
+          "expected": "direct_chat",
+          "actual": "direct_chat",
+          "confidence": 0.95,
+          "reason": "matched small-talk pattern",
+          "ok": true
+        },
+        {
+          "id": "intent_005",
+          "question": "再见",
+          "expected": "direct_chat",
+          "actual": "direct_chat",
+          "confidence": 0.95,
+          "reason": "matched small-talk pattern",
+          "ok": true
+        },
+        {
+          "id": "intent_006",
+          "question": "什么是向量数据库？",
+          "expected": "direct_chat",
+          "actual": "direct_chat",
+          "confidence": 0.76,
+          "reason": "general explanation question",
+          "ok": true
+        },
+        {
+          "id": "intent_007",
+          "question": "简单介绍一下大语言模型",
+          "expected": "direct_chat",
+          "actual": "direct_chat",
+          "confidence": 0.76,
+          "reason": "general explanation question",
+          "ok": true
+        },
+        {
+          "id": "intent_008",
+          "question": "为什么天空是蓝色的？",
+          "expected": "direct_chat",
+          "actual": "direct_chat",
+          "confidence": 0.76,
+          "reason": "general explanation question",
+          "ok": true
+        },
+        {
+          "id": "intent_009",
+          "question": "产品A的额定输入电压是多少？",
+          "expected": "rag_qa",
+          "actual": "rag_qa",
+          "confidence": 0.9,
+          "reason": "contains product manual keywords",
+          "ok": true
+        },
+        {
+          "id": "intent_010",
+          "question": "手册里写的产品B输出电流是多少？",
+          "expected": "rag_qa",
+          "actual": "rag_qa",
+          "confidence": 0.9,
+          "reason": "contains product manual keywords",
+          "ok": true
+        },
+        {
+          "id": "intent_011",
+          "question": "请依据说明书告诉我产品A怎么接线",
+          "expected": "rag_qa",
+          "actual": "rag_qa",
+          "confidence": 0.9,
+          "reason": "contains product manual keywords",
+          "ok": true
+        },
+        {
+          "id": "intent_012",
+          "question": "产品B安装时上下需要预留多少空间？",
+          "expected": "rag_qa",
+          "actual": "rag_qa",
+          "confidence": 0.9,
+          "reason": "contains product manual keywords",
+          "ok": true
+        },
+        {
+          "id": "intent_013",
+          "question": "两个产品的工作温度范围有什么区别？",
+          "expected": "rag_qa",
+          "actual": "rag_qa",
+          "confidence": 0.9,
+          "reason": "contains product manual keywords",
+          "ok": true
+        },
+        {
+          "id": "intent_014",
+          "question": "第3页提到的DIN导轨安装要求是什么？",
+          "expected": "rag_qa",
+          "actual": "rag_qa",
+          "confidence": 0.9,
+          "reason": "contains product manual keywords",
+          "ok": true
+        },
+        {
+          "id": "intent_015",
+          "question": "产品A的ERROR灯变红代表什么？",
+          "expected": "rag_qa",
+          "actual": "rag_qa",
+          "confidence": 0.9,
+          "reason": "contains product manual keywords",
+          "ok": true
+        },
+        {
+          "id": "intent_016",
+          "question": "产品B短路保护如何恢复？",
+          "expected": "rag_qa",
+          "actual": "rag_qa",
+          "confidence": 0.9,
+          "reason": "contains product manual keywords",
+          "ok": true
+        },
+        {
+          "id": "intent_017",
+          "question": "请引用原文说明产品A的通信接口",
+          "expected": "rag_qa",
+          "actual": "rag_qa",
+          "confidence": 0.9,
+          "reason": "contains product manual keywords",
+          "ok": true
+        },
+        {
+          "id": "intent_018",
+          "question": "这份PDF里有没有写防护等级？",
+          "expected": "rag_qa",
+          "actual": "rag_qa",
+          "confidence": 0.9,
+          "reason": "contains product manual keywords",
+          "ok": true
+        },
+        {
+          "id": "intent_019",
+          "question": "西门子产品B的订货型号是什么？",
+          "expected": "rag_qa",
+          "actual": "rag_qa",
+          "confidence": 0.9,
+          "reason": "contains product manual keywords",
+          "ok": true
+        },
+        {
+          "id": "intent_020",
+          "question": "产品A和产品B都支持PROFINET吗？",
+          "expected": "rag_qa",
+          "actual": "rag_qa",
+          "confidence": 0.9,
+          "reason": "contains product manual keywords",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "name": "retrieval",
+      "total": 20,
+      "recall_at_3": 1.0,
+      "mrr": 0.975,
+      "details": [
+        {
+          "id": "retrieval_001",
+          "question": "产品A的额定输入电压是多少？",
+          "expected_chunk_ids": [
+            "pm_a_power_p2"
+          ],
+          "returned_chunk_ids": [
+            "pm_a_power_p2",
+            "pm_b_power_p2",
+            "pm_a_io_comm_p2"
+          ],
+          "scores": [
+            1.076,
+            0.8054,
+            0.6688
+          ],
+          "hit_at_3": true,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "id": "retrieval_002",
+          "question": "产品A允许的电压范围是多少？",
+          "expected_chunk_ids": [
+            "pm_a_power_p2"
+          ],
+          "returned_chunk_ids": [
+            "pm_a_power_p2",
+            "pm_a_env_p2",
+            "pm_a_install_p3"
+          ],
+          "scores": [
+            1.1131,
+            0.7406,
+            0.6613
+          ],
+          "hit_at_3": true,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "id": "retrieval_003",
+          "question": "产品A有多少路数字量输入和输出？",
+          "expected_chunk_ids": [
+            "pm_a_io_comm_p2"
+          ],
+          "returned_chunk_ids": [
+            "pm_a_io_comm_p2",
+            "pm_a_overview_p1",
+            "pm_a_power_p2"
+          ],
+          "scores": [
+            1.0598,
+            0.8705,
+            0.7695
+          ],
+          "hit_at_3": true,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "id": "retrieval_004",
+          "question": "产品A支持什么通信接口和协议？",
+          "expected_chunk_ids": [
+            "pm_a_io_comm_p2"
+          ],
+          "returned_chunk_ids": [
+            "pm_a_io_comm_p2",
+            "pm_a_overview_p1",
+            "pm_a_install_p3"
+          ],
+          "scores": [
+            1.0613,
+            0.7896,
+            0.6695
+          ],
+          "hit_at_3": true,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "id": "retrieval_005",
+          "question": "产品A工作温度和防护等级是多少？",
+          "expected_chunk_ids": [
+            "pm_a_env_p2"
+          ],
+          "returned_chunk_ids": [
+            "pm_a_env_p2",
+            "pm_b_env_p2",
+            "pm_a_maintenance_p7"
+          ],
+          "scores": [
+            1.13,
+            0.7382,
+            0.6874
+          ],
+          "hit_at_3": true,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "id": "retrieval_006",
+          "question": "产品A应该安装在什么导轨上？",
+          "expected_chunk_ids": [
+            "pm_a_install_p3"
+          ],
+          "returned_chunk_ids": [
+            "pm_a_install_p3",
+            "pm_b_install_p3",
+            "pm_a_trouble_p6"
+          ],
+          "scores": [
+            1.1163,
+            0.7104,
+            0.6009
+          ],
+          "hit_at_3": true,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "id": "retrieval_007",
+          "question": "产品A的L+和M端子怎么接？",
+          "expected_chunk_ids": [
+            "pm_a_wiring_p4"
+          ],
+          "returned_chunk_ids": [
+            "pm_a_wiring_p4",
+            "pm_a_power_p2",
+            "pm_b_wiring_p4"
+          ],
+          "scores": [
+            1.0994,
+            0.9543,
+            0.7734
+          ],
+          "hit_at_3": true,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "id": "retrieval_008",
+          "question": "产品A的ERROR红灯常亮表示什么？",
+          "expected_chunk_ids": [
+            "pm_a_trouble_p6"
+          ],
+          "returned_chunk_ids": [
+            "pm_a_trouble_p6",
+            "pm_a_power_p2",
+            "pm_a_wiring_p4"
+          ],
+          "scores": [
+            1.0331,
+            0.5995,
+            0.5627
+          ],
+          "hit_at_3": true,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "id": "retrieval_009",
+          "question": "产品B的输入电源规格是什么？",
+          "expected_chunk_ids": [
+            "pm_b_power_p2"
+          ],
+          "returned_chunk_ids": [
+            "pm_b_power_p2",
+            "pm_b_overview_p1",
+            "pm_b_wiring_p4"
+          ],
+          "scores": [
+            1.1223,
+            0.9716,
+            0.9054
+          ],
+          "hit_at_3": true,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "id": "retrieval_010",
+          "question": "产品B的输出电压和输出电流是多少？",
+          "expected_chunk_ids": [
+            "pm_b_power_p2"
+          ],
+          "returned_chunk_ids": [
+            "pm_b_power_p2",
+            "pm_b_signal_p6",
+            "pm_b_overview_p1"
+          ],
+          "scores": [
+            1.0991,
+            0.8478,
+            0.8131
+          ],
+          "hit_at_3": true,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "id": "retrieval_011",
+          "question": "产品B额定输出功率是多少？",
+          "expected_chunk_ids": [
+            "pm_b_power_p2"
+          ],
+          "returned_chunk_ids": [
+            "pm_b_power_p2",
+            "pm_b_overview_p1",
+            "pm_b_env_p2"
+          ],
+          "scores": [
+            1.109,
+            0.7511,
+            0.7506
+          ],
+          "hit_at_3": true,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "id": "retrieval_012",
+          "question": "产品B允许工作温度是多少？",
+          "expected_chunk_ids": [
+            "pm_b_env_p2"
+          ],
+          "returned_chunk_ids": [
+            "pm_b_env_p2",
+            "pm_b_overview_p1",
+            "pm_a_env_p2"
+          ],
+          "scores": [
+            1.0379,
+            0.7118,
+            0.7005
+          ],
+          "hit_at_3": true,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "id": "retrieval_013",
+          "question": "产品B安装时上下需要预留多少空间？",
+          "expected_chunk_ids": [
+            "pm_b_install_p3"
+          ],
+          "returned_chunk_ids": [
+            "pm_b_install_p3",
+            "pm_a_install_p3",
+            "pm_b_env_p2"
+          ],
+          "scores": [
+            1.0757,
+            0.693,
+            0.5576
+          ],
+          "hit_at_3": true,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "id": "retrieval_014",
+          "question": "产品B输入端子、输出端子和力矩要求是什么？",
+          "expected_chunk_ids": [
+            "pm_b_wiring_p4"
+          ],
+          "returned_chunk_ids": [
+            "pm_b_wiring_p4",
+            "pm_b_power_p2",
+            "pm_b_overview_p1"
+          ],
+          "scores": [
+            1.0157,
+            0.7668,
+            0.6975
+          ],
+          "hit_at_3": true,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "id": "retrieval_015",
+          "question": "产品B的DC OK灯表示什么？",
+          "expected_chunk_ids": [
+            "pm_b_signal_p6"
+          ],
+          "returned_chunk_ids": [
+            "pm_b_signal_p6",
+            "pm_b_overview_p1",
+            "pm_b_power_p2"
+          ],
+          "scores": [
+            1.0542,
+            0.7006,
+            0.6558
+          ],
+          "hit_at_3": true,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "id": "retrieval_016",
+          "question": "产品B短路或过载后如何恢复？",
+          "expected_chunk_ids": [
+            "pm_b_signal_p6"
+          ],
+          "returned_chunk_ids": [
+            "pm_b_signal_p6",
+            "pm_b_env_p2",
+            "pm_b_power_p2"
+          ],
+          "scores": [
+            0.9813,
+            0.6477,
+            0.5521
+          ],
+          "hit_at_3": true,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "id": "retrieval_017",
+          "question": "对比产品A和产品B的工作温度范围",
+          "expected_chunk_ids": [
+            "pm_a_env_p2",
+            "pm_b_env_p2"
+          ],
+          "returned_chunk_ids": [
+            "pm_a_env_p2",
+            "pm_b_env_p2",
+            "pm_a_power_p2"
+          ],
+          "scores": [
+            0.7436,
+            0.6455,
+            0.5163
+          ],
+          "hit_at_3": true,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "id": "retrieval_018",
+          "question": "产品A和产品B的防护等级分别是多少？",
+          "expected_chunk_ids": [
+            "pm_a_env_p2",
+            "pm_b_env_p2"
+          ],
+          "returned_chunk_ids": [
+            "pm_a_env_p2",
+            "pm_b_env_p2",
+            "pm_a_maintenance_p7"
+          ],
+          "scores": [
+            0.8141,
+            0.8093,
+            0.5428
+          ],
+          "hit_at_3": true,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "id": "retrieval_019",
+          "question": "哪个产品是控制器，哪个产品是电源模块？",
+          "expected_chunk_ids": [
+            "pm_a_overview_p1",
+            "pm_b_overview_p1"
+          ],
+          "returned_chunk_ids": [
+            "pm_b_overview_p1",
+            "pm_a_overview_p1",
+            "pm_a_power_p2"
+          ],
+          "scores": [
+            0.8529,
+            0.6395,
+            0.6284
+          ],
+          "hit_at_3": true,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "id": "retrieval_020",
+          "question": "产品A和产品B的电源相关参数有什么不同？",
+          "expected_chunk_ids": [
+            "pm_a_power_p2",
+            "pm_b_power_p2"
+          ],
+          "returned_chunk_ids": [
+            "pm_b_overview_p1",
+            "pm_b_power_p2",
+            "pm_a_power_p2"
+          ],
+          "scores": [
+            0.8061,
+            0.7536,
+            0.6704
+          ],
+          "hit_at_3": true,
+          "reciprocal_rank": 0.5
+        }
+      ]
+    },
+    {
+      "name": "content",
+      "total": 20,
+      "accuracy": 1.0,
+      "avg_fact_coverage": 0.9833333333333333,
+      "page_citation_accuracy": 1.0,
+      "avg_latency_seconds": 5.842956245000096,
+      "p95_latency_seconds": 7.015893000003416,
+      "fact_threshold": 0.6,
+      "details": [
+        {
+          "id": "content_001",
+          "question": "产品A的额定输入电压是多少？",
+          "actual_intent": "rag_qa",
+          "intent_ok": true,
+          "expected_facts": [
+            "DC24V"
+          ],
+          "fact_coverage": 1.0,
+          "expected_pages": [
+            2
+          ],
+          "expected_files": [
+            "西门子产品A控制器手册.pdf"
+          ],
+          "returned_citations": [
+            {
+              "chunk_id": "pm_a_power_p2",
+              "file_name": "西门子产品A控制器手册.pdf",
+              "page_start": 2,
+              "page_end": 2,
+              "score": 1.076
+            },
+            {
+              "chunk_id": "pm_b_power_p2",
+              "file_name": "西门子产品B电源手册.pdf",
+              "page_start": 2,
+              "page_end": 2,
+              "score": 0.8054
+            },
+            {
+              "chunk_id": "pm_a_io_comm_p2",
+              "file_name": "西门子产品A控制器手册.pdf",
+              "page_start": 2,
+              "page_end": 2,
+              "score": 0.6688
+            }
+          ],
+          "page_citation_ok": true,
+          "content_ok": true,
+          "latency_seconds": 6.755,
+          "answer_preview": "产品A的额定输入电压为 DC 24 V，依据：西门子产品A控制器手册.pdf，第 2-2 页。"
+        },
+        {
+          "id": "content_002",
+          "question": "产品A允许的输入电压范围是多少？",
+          "actual_intent": "rag_qa",
+          "intent_ok": true,
+          "expected_facts": [
+            "DC20.4V",
+            "DC28.8V"
+          ],
+          "fact_coverage": 1.0,
+          "expected_pages": [
+            2
+          ],
+          "expected_files": [
+            "西门子产品A控制器手册.pdf"
+          ],
+          "returned_citations": [
+            {
+              "chunk_id": "pm_a_power_p2",
+              "file_name": "西门子产品A控制器手册.pdf",
+              "page_start": 2,
+              "page_end": 2,
+              "score": 1.1338
+            },
+            {
+              "chunk_id": "pm_a_env_p2",
+              "file_name": "西门子产品A控制器手册.pdf",
+              "page_start": 2,
+              "page_end": 2,
+              "score": 0.7138
+            },
+            {
+              "chunk_id": "pm_a_install_p3",
+              "file_name": "西门子产品A控制器手册.pdf",
+              "page_start": 3,
+              "page_end": 3,
+              "score": 0.6392
+            }
+          ],
+          "page_citation_ok": true,
+          "content_ok": true,
+          "latency_seconds": 5.286,
+          "answer_preview": "产品A允许的输入电压范围为 DC 20.4 V 至 DC 28.8 V，依据：西门子产品A控制器手册.pdf，第 2-2 页。"
+        },
+        {
+          "id": "content_003",
+          "question": "产品A的数字量输入和输出路数分别是多少？",
+          "actual_intent": "rag_qa",
+          "intent_ok": true,
+          "expected_facts": [
+            "14路",
+            "10路"
+          ],
+          "fact_coverage": 1.0,
+          "expected_pages": [
+            2
+          ],
+          "expected_files": [
+            "西门子产品A控制器手册.pdf"
+          ],
+          "returned_citations": [
+            {
+              "chunk_id": "pm_a_io_comm_p2",
+              "file_name": "西门子产品A控制器手册.pdf",
+              "page_start": 2,
+              "page_end": 2,
+              "score": 1.036
+            },
+            {
+              "chunk_id": "pm_a_overview_p1",
+              "file_name": "西门子产品A控制器手册.pdf",
+              "page_start": 1,
+              "page_end": 1,
+              "score": 0.906
+            },
+            {
+              "chunk_id": "pm_a_power_p2",
+              "file_name": "西门子产品A控制器手册.pdf",
+              "page_start": 2,
+              "page_end": 2,
+              "score": 0.7774
+            }
+          ],
+          "page_citation_ok": true,
+          "content_ok": true,
+          "latency_seconds": 5.143,
+          "answer_preview": "产品A的数字量输入为14路，数字量输出为10路，依据：西门子产品A控制器手册.pdf，第 2-2 页。"
+        },
+        {
+          "id": "content_004",
+          "question": "产品A支持什么通信协议？接口速率是多少？",
+          "actual_intent": "rag_qa",
+          "intent_ok": true,
+          "expected_facts": [
+            "PROFINET",
+            "10/100Mbit/s"
+          ],
+          "fact_coverage": 1.0,
+          "expected_pages": [
+            2
+          ],
+          "expected_files": [
+            "西门子产品A控制器手册.pdf"
+          ],
+          "returned_citations": [
+            {
+              "chunk_id": "pm_a_io_comm_p2",
+              "file_name": "西门子产品A控制器手册.pdf",
+              "page_start": 2,
+              "page_end": 2,
+              "score": 1.0381
+            },
+            {
+              "chunk_id": "pm_a_overview_p1",
+              "file_name": "西门子产品A控制器手册.pdf",
+              "page_start": 1,
+              "page_end": 1,
+              "score": 0.7509
+            },
+            {
+              "chunk_id": "pm_a_install_p3",
+              "file_name": "西门子产品A控制器手册.pdf",
+              "page_start": 3,
+              "page_end": 3,
+              "score": 0.6617
+            }
+          ],
+          "page_citation_ok": true,
+          "content_ok": true,
+          "latency_seconds": 5.458,
+          "answer_preview": "产品A支持PROFINET通信协议，接口速率为10/100 Mbit/s。依据：西门子产品A控制器手册.pdf，第2-2页。"
+        },
+        {
+          "id": "content_005",
+          "question": "产品A的工作温度和防护等级是多少？",
+          "actual_intent": "rag_qa",
+          "intent_ok": true,
+          "expected_facts": [
+            "-20°C至60°C",
+            "IP20"
+          ],
+          "fact_coverage": 1.0,
+          "expected_pages": [
+            2
+          ],
+          "expected_files": [
+            "西门子产品A控制器手册.pdf"
+          ],
+          "returned_citations": [
+            {
+              "chunk_id": "pm_a_env_p2",
+              "file_name": "西门子产品A控制器手册.pdf",
+              "page_start": 2,
+              "page_end": 2,
+              "score": 1.1233
+            },
+            {
+              "chunk_id": "pm_b_env_p2",
+              "file_name": "西门子产品B电源手册.pdf",
+              "page_start": 2,
+              "page_end": 2,
+              "score": 0.7295
+            },
+            {
+              "chunk_id": "pm_a_maintenance_p7",
+              "file_name": "西门子产品A控制器手册.pdf",
+              "page_start": 7,
+              "page_end": 7,
+              "score": 0.6904
+            }
+          ],
+          "page_citation_ok": true,
+          "content_ok": true,
+          "latency_seconds": 7.148,
+          "answer_preview": "产品A控制器允许工作温度为 -20 °C 至 60 °C，外壳防护等级为 IP20（依据：西门子产品A控制器手册.pdf，第 2-2 页）。"
+        },
+        {
+          "id": "content_006",
+          "question": "产品A安装导轨和通风空间要求是什么？",
+          "actual_intent": "rag_qa",
+          "intent_ok": true,
+          "expected_facts": [
+            "35mmDIN导轨",
+            "25mm"
+          ],
+          "fact_coverage": 1.0,
+          "expected_pages": [
+            3
+          ],
+          "expected_files": [
+            "西门子产品A控制器手册.pdf"
+          ],
+          "returned_citations": [
+            {
+              "chunk_id": "pm_a_install_p3",
+              "file_name": "西门子产品A控制器手册.pdf",
+              "page_start": 3,
+              "page_end": 3,
+              "score": 1.1108
+            },
+            {
+              "chunk_id": "pm_b_install_p3",
+              "file_name": "西门子产品B电源手册.pdf",
+              "page_start": 3,
+              "page_end": 3,
+              "score": 0.6796
+            },
+            {
+              "chunk_id": "pm_a_io_comm_p2",
+              "file_name": "西门子产品A控制器手册.pdf",
+              "page_start": 2,
+              "page_end": 2,
+              "score": 0.6413
+            }
+          ],
+          "page_citation_ok": true,
+          "content_ok": true,
+          "latency_seconds": 5.702,
+          "answer_preview": "产品A控制器应安装在35 mm DIN导轨上，安装方向为垂直安装；设备上下方建议预留不少于25 mm的通风空间。依据：西门子产品A控制器手册.pdf，第3-3页。"
+        },
+        {
+          "id": "content_007",
+          "question": "产品A的L+和M端子分别接什么？",
+          "actual_intent": "rag_qa",
+          "intent_ok": true,
+          "expected_facts": [
+            "L+",
+            "DC24V正极",
+            "M",
+            "0V"
+          ],
+          "fact_coverage": 1.0,
+          "expected_pages": [
+            4
+          ],
+          "expected_files": [
+            "西门子产品A控制器手册.pdf"
+          ],
+          "returned_citations": [
+            {
+              "chunk_id": "pm_a_wiring_p4",
+              "file_name": "西门子产品A控制器手册.pdf",
+              "page_start": 4,
+              "page_end": 4,
+              "score": 1.0842
+            },
+            {
+              "chunk_id": "pm_a_power_p2",
+              "file_name": "西门子产品A控制器手册.pdf",
+              "page_start": 2,
+              "page_end": 2,
+              "score": 0.9496
+            },
+            {
+              "chunk_id": "pm_b_wiring_p4",
+              "file_name": "西门子产品B电源手册.pdf",
+              "page_start": 4,
+              "page_end": 4,
+              "score": 0.7713
+            }
+          ],
+          "page_citation_ok": true,
+          "content_ok": true,
+          "latency_seconds": 7.016,
+          "answer_preview": "产品A的L+端子接DC 24 V正极，M端子接0 V，依据：西门子产品A控制器手册.pdf，第 4-4 页；  \n同时，L+和M为电源端子，额定输入电压为DC 24 V，允许电压范围为DC 20.4 V至DC 28.8 V，接入反接可能导致设备无法启动，依据：西门子产品A控制器手册.pdf，第 2-2 页。"
+        },
+        {
+          "id": "content_008",
+          "question": "产品A端子螺钉推荐拧紧力矩是多少？",
+          "actual_intent": "rag_qa",
+          "intent_ok": true,
+          "expected_facts": [
+            "0.5N·m"
+          ],
+          "fact_coverage": 1.0,
+          "expected_pages": [
+            4
+          ],
+          "expected_files": [
+            "西门子产品A控制器手册.pdf"
+          ],
+          "returned_citations": [
+            {
+              "chunk_id": "pm_a_wiring_p4",
+              "file_name": "西门子产品A控制器手册.pdf",
+              "page_start": 4,
+              "page_end": 4,
+              "score": 0.948
+            },
+            {
+              "chunk_id": "pm_b_wiring_p4",
+              "file_name": "西门子产品B电源手册.pdf",
+              "page_start": 4,
+              "page_end": 4,
+              "score": 0.6726
+            },
+            {
+              "chunk_id": "pm_a_power_p2",
+              "file_name": "西门子产品A控制器手册.pdf",
+              "page_start": 2,
+              "page_end": 2,
+              "score": 0.5842
+            }
+          ],
+          "page_citation_ok": true,
+          "content_ok": true,
+          "latency_seconds": 5.755,
+          "answer_preview": "产品A端子螺钉推荐拧紧力矩为 0.5 N·m，依据：西门子产品A控制器手册.pdf，第 4-4 页。"
+        },
+        {
+          "id": "content_009",
+          "question": "产品A的ERROR指示灯红色常亮是什么意思？",
+          "actual_intent": "rag_qa",
+          "intent_ok": true,
+          "expected_facts": [
+            "硬件故障",
+            "组态错误"
+          ],
+          "fact_coverage": 1.0,
+          "expected_pages": [
+            6
+          ],
+          "expected_files": [
+            "西门子产品A控制器手册.pdf"
+          ],
+          "returned_citations": [
+            {
+              "chunk_id": "pm_a_trouble_p6",
+              "file_name": "西门子产品A控制器手册.pdf",
+              "page_start": 6,
+              "page_end": 6,
+              "score": 1.0272
+            },
+            {
+              "chunk_id": "pm_a_power_p2",
+              "file_name": "西门子产品A控制器手册.pdf",
+              "page_start": 2,
+              "page_end": 2,
+              "score": 0.5946
+            },
+            {
+              "chunk_id": "pm_a_wiring_p4",
+              "file_name": "西门子产品A控制器手册.pdf",
+              "page_start": 4,
+              "page_end": 4,
+              "score": 0.5631
+            }
+          ],
+          "page_citation_ok": true,
+          "content_ok": true,
+          "latency_seconds": 5.871,
+          "answer_preview": "产品A控制器ERROR指示灯红色常亮表示存在硬件故障或组态错误，应检查电源、I/O接线和项目组态（依据：西门子产品A控制器手册.pdf，第6-6页）。"
+        },
+        {
+          "id": "content_010",
+          "question": "维护产品A前要注意什么？",
+          "actual_intent": "rag_qa",
+          "intent_ok": true,
+          "expected_facts": [
+            "切断电源",
+            "干燥软布"
+          ],
+          "fact_coverage": 1.0,
+          "expected_pages": [
+            7
+          ],
+          "expected_files": [
+            "西门子产品A控制器手册.pdf"
+          ],
+          "returned_citations": [
+            {
+              "chunk_id": "pm_a_maintenance_p7",
+              "file_name": "西门子产品A控制器手册.pdf",
+              "page_start": 7,
+              "page_end": 7,
+              "score": 0.9916
+            },
+            {
+              "chunk_id": "pm_a_install_p3",
+              "file_name": "西门子产品A控制器手册.pdf",
+              "page_start": 3,
+              "page_end": 3,
+              "score": 0.7546
+            },
+            {
+              "chunk_id": "pm_a_env_p2",
+              "file_name": "西门子产品A控制器手册.pdf",
+              "page_start": 2,
+              "page_end": 2,
+              "score": 0.707
+            }
+          ],
+          "page_citation_ok": true,
+          "content_ok": true,
+          "latency_seconds": 5.631,
+          "answer_preview": "维护产品A前必须切断电源；清洁设备时只能使用干燥软布，不得使用溶剂；固件升级过程中不得断电，否则可能造成设备无法启动（依据：西门子产品A控制器手册.pdf，第 7-7 页）。"
+        },
+        {
+          "id": "content_011",
+          "question": "产品B的输入电源和频率是多少？",
+          "actual_intent": "rag_qa",
+          "intent_ok": true,
+          "expected_facts": [
+            "AC120/230V",
+            "50/60Hz"
+          ],
+          "fact_coverage": 1.0,
+          "expected_pages": [
+            2
+          ],
+          "expected_files": [
+            "西门子产品B电源手册.pdf"
+          ],
+          "returned_citations": [
+            {
+              "chunk_id": "pm_b_power_p2",
+              "file_name": "西门子产品B电源手册.pdf",
+              "page_start": 2,
+              "page_end": 2,
+              "score": 1.1541
+            },
+            {
+              "chunk_id": "pm_b_overview_p1",
+              "file_name": "西门子产品B电源手册.pdf",
+              "page_start": 1,
+              "page_end": 1,
+              "score": 0.8685
+            },
+            {
+              "chunk_id": "pm_b_wiring_p4",
+              "file_name": "西门子产品B电源手册.pdf",
+              "page_start": 4,
+              "page_end": 4,
+              "score": 0.8293
+            }
+          ],
+          "page_citation_ok": true,
+          "content_ok": true,
+          "latency_seconds": 5.632,
+          "answer_preview": "产品B的输入电源为 AC 120/230 V，频率为 50/60 Hz。依据：西门子产品B电源手册.pdf，第 2-2 页。"
+        },
+        {
+          "id": "content_012",
+          "question": "产品B的额定输出电压、电流、功率是多少？",
+          "actual_intent": "rag_qa",
+          "intent_ok": true,
+          "expected_facts": [
+            "DC24V",
+            "5A",
+            "120W"
+          ],
+          "fact_coverage": 1.0,
+          "expected_pages": [
+            2
+          ],
+          "expected_files": [
+            "西门子产品B电源手册.pdf"
+          ],
+          "returned_citations": [
+            {
+              "chunk_id": "pm_b_power_p2",
+              "file_name": "西门子产品B电源手册.pdf",
+              "page_start": 2,
+              "page_end": 2,
+              "score": 1.1371
+            },
+            {
+              "chunk_id": "pm_b_overview_p1",
+              "file_name": "西门子产品B电源手册.pdf",
+              "page_start": 1,
+              "page_end": 1,
+              "score": 0.7727
+            },
+            {
+              "chunk_id": "pm_b_signal_p6",
+              "file_name": "西门子产品B电源手册.pdf",
+              "page_start": 6,
+              "page_end": 6,
+              "score": 0.744
+            }
+          ],
+          "page_citation_ok": true,
+          "content_ok": true,
+          "latency_seconds": 5.39,
+          "answer_preview": "产品B的额定输出电压为 DC 24 V，额定输出电流为 5 A，额定输出功率为 120 W（依据：西门子产品B电源手册.pdf，第 2-2 页）。"
+        },
+        {
+          "id": "content_013",
+          "question": "产品B的工作温度范围和防护等级是多少？",
+          "actual_intent": "rag_qa",
+          "intent_ok": true,
+          "expected_facts": [
+            "-25°C至70°C",
+            "IP20"
+          ],
+          "fact_coverage": 1.0,
+          "expected_pages": [
+            2
+          ],
+          "expected_files": [
+            "西门子产品B电源手册.pdf"
+          ],
+          "returned_citations": [
+            {
+              "chunk_id": "pm_b_env_p2",
+              "file_name": "西门子产品B电源手册.pdf",
+              "page_start": 2,
+              "page_end": 2,
+              "score": 1.0909
+            },
+            {
+              "chunk_id": "pm_a_env_p2",
+              "file_name": "西门子产品A控制器手册.pdf",
+              "page_start": 2,
+              "page_end": 2,
+              "score": 0.7593
+            },
+            {
+              "chunk_id": "pm_b_overview_p1",
+              "file_name": "西门子产品B电源手册.pdf",
+              "page_start": 1,
+              "page_end": 1,
+              "score": 0.7341
+            }
+          ],
+          "page_citation_ok": true,
+          "content_ok": true,
+          "latency_seconds": 6.139,
+          "answer_preview": "产品B的工作温度范围为 -25 °C 至 70 °C，外壳防护等级为 IP20。依据：西门子产品B电源手册.pdf，第 2-2 页。"
+        },
+        {
+          "id": "content_014",
+          "question": "产品B超过60°C使用时有什么要求？",
+          "actual_intent": "rag_qa",
+          "intent_ok": true,
+          "expected_facts": [
+            "60°C",
+            "降额曲线",
+            "降低输出负载"
+          ],
+          "fact_coverage": 1.0,
+          "expected_pages": [
+            2
+          ],
+          "expected_files": [
+            "西门子产品B电源手册.pdf"
+          ],
+          "returned_citations": [
+            {
+              "chunk_id": "pm_b_env_p2",
+              "file_name": "西门子产品B电源手册.pdf",
+              "page_start": 2,
+              "page_end": 2,
+              "score": 0.9912
+            },
+            {
+              "chunk_id": "pm_b_signal_p6",
+              "file_name": "西门子产品B电源手册.pdf",
+              "page_start": 6,
+              "page_end": 6,
+              "score": 0.6295
+            },
+            {
+              "chunk_id": "pm_b_install_p3",
+              "file_name": "西门子产品B电源手册.pdf",
+              "page_start": 3,
+              "page_end": 3,
+              "score": 0.6277
+            }
+          ],
+          "page_citation_ok": true,
+          "content_ok": true,
+          "latency_seconds": 5.331,
+          "answer_preview": "产品B超过60°C使用时应按手册降额曲线降低输出负载，依据：西门子产品B电源手册.pdf，第 2-2 页。"
+        },
+        {
+          "id": "content_015",
+          "question": "产品B安装空间要求是什么？",
+          "actual_intent": "rag_qa",
+          "intent_ok": true,
+          "expected_facts": [
+            "上方",
+            "下方",
+            "50mm",
+            "左右侧",
+            "10mm"
+          ],
+          "fact_coverage": 1.0,
+          "expected_pages": [
+            3
+          ],
+          "expected_files": [
+            "西门子产品B电源手册.pdf"
+          ],
+          "returned_citations": [
+            {
+              "chunk_id": "pm_b_install_p3",
+              "file_name": "西门子产品B电源手册.pdf",
+              "page_start": 3,
+              "page_end": 3,
+              "score": 1.0408
+            },
+            {
+              "chunk_id": "pm_a_install_p3",
+              "file_name": "西门子产品A控制器手册.pdf",
+              "page_start": 3,
+              "page_end": 3,
+              "score": 0.6582
+            },
+            {
+              "chunk_id": "pm_b_overview_p1",
+              "file_name": "西门子产品B电源手册.pdf",
+              "page_start": 1,
+              "page_end": 1,
+              "score": 0.6548
+            }
+          ],
+          "page_citation_ok": true,
+          "content_ok": true,
+          "latency_seconds": 5.707,
+          "answer_preview": "产品B安装空间要求为：应卡装在35 mm DIN导轨上，安装方向为垂直安装；设备上方和下方均应预留至少50 mm空间，左右侧建议预留10 mm空间。依据：西门子产品B电源手册.pdf，第3-3页。"
+        },
+        {
+          "id": "content_016",
+          "question": "产品B输入端子和输出端子分别是什么？",
+          "actual_intent": "rag_qa",
+          "intent_ok": true,
+          "expected_facts": [
+            "L",
+            "N",
+            "PE",
+            "+",
+            "-"
+          ],
+          "fact_coverage": 1.0,
+          "expected_pages": [
+            4
+          ],
+          "expected_files": [
+            "西门子产品B电源手册.pdf"
+          ],
+          "returned_citations": [
+            {
+              "chunk_id": "pm_b_wiring_p4",
+              "file_name": "西门子产品B电源手册.pdf",
+              "page_start": 4,
+              "page_end": 4,
+              "score": 1.0035
+            },
+            {
+              "chunk_id": "pm_b_power_p2",
+              "file_name": "西门子产品B电源手册.pdf",
+              "page_start": 2,
+              "page_end": 2,
+              "score": 0.8292
+            },
+            {
+              "chunk_id": "pm_b_overview_p1",
+              "file_name": "西门子产品B电源手册.pdf",
+              "page_start": 1,
+              "page_end": 1,
+              "score": 0.7382
+            }
+          ],
+          "page_citation_ok": true,
+          "content_ok": true,
+          "latency_seconds": 5.377,
+          "answer_preview": "产品B输入端子为 L、N 和 PE，输出端子为 + 和 -（依据：西门子产品B电源手册.pdf，第 4-4 页）。"
+        },
+        {
+          "id": "content_017",
+          "question": "产品B端子螺钉推荐拧紧力矩是多少？",
+          "actual_intent": "rag_qa",
+          "intent_ok": true,
+          "expected_facts": [
+            "0.6N·m"
+          ],
+          "fact_coverage": 1.0,
+          "expected_pages": [
+            4
+          ],
+          "expected_files": [
+            "西门子产品B电源手册.pdf"
+          ],
+          "returned_citations": [
+            {
+              "chunk_id": "pm_b_wiring_p4",
+              "file_name": "西门子产品B电源手册.pdf",
+              "page_start": 4,
+              "page_end": 4,
+              "score": 0.9852
+            },
+            {
+              "chunk_id": "pm_b_overview_p1",
+              "file_name": "西门子产品B电源手册.pdf",
+              "page_start": 1,
+              "page_end": 1,
+              "score": 0.601
+            },
+            {
+              "chunk_id": "pm_a_wiring_p4",
+              "file_name": "西门子产品A控制器手册.pdf",
+              "page_start": 4,
+              "page_end": 4,
+              "score": 0.5776
+            }
+          ],
+          "page_citation_ok": true,
+          "content_ok": true,
+          "latency_seconds": 5.524,
+          "answer_preview": "产品B端子螺钉推荐拧紧力矩为 0.6 N·m，依据：西门子产品B电源手册.pdf，第 4-4 页。"
+        },
+        {
+          "id": "content_018",
+          "question": "产品B的DC OK绿灯常亮说明什么？",
+          "actual_intent": "rag_qa",
+          "intent_ok": true,
+          "expected_facts": [
+            "DCOK",
+            "绿色常亮",
+            "输出电压正常"
+          ],
+          "fact_coverage": 0.6666666666666666,
+          "expected_pages": [
+            6
+          ],
+          "expected_files": [
+            "西门子产品B电源手册.pdf"
+          ],
+          "returned_citations": [
+            {
+              "chunk_id": "pm_b_signal_p6",
+              "file_name": "西门子产品B电源手册.pdf",
+              "page_start": 6,
+              "page_end": 6,
+              "score": 1.0414
+            },
+            {
+              "chunk_id": "pm_b_overview_p1",
+              "file_name": "西门子产品B电源手册.pdf",
+              "page_start": 1,
+              "page_end": 1,
+              "score": 0.6576
+            },
+            {
+              "chunk_id": "pm_b_power_p2",
+              "file_name": "西门子产品B电源手册.pdf",
+              "page_start": 2,
+              "page_end": 2,
+              "score": 0.6241
+            }
+          ],
+          "page_citation_ok": true,
+          "content_ok": true,
+          "latency_seconds": 5.447,
+          "answer_preview": "产品B的DC OK绿灯常亮说明输出电压正常，依据：西门子产品B电源手册.pdf，第 6-6 页。"
+        },
+        {
+          "id": "content_019",
+          "question": "产品A和产品B的工作温度范围分别是多少？",
+          "actual_intent": "rag_qa",
+          "intent_ok": true,
+          "expected_facts": [
+            "产品A",
+            "-20°C至60°C",
+            "产品B",
+            "-25°C至70°C"
+          ],
+          "fact_coverage": 1.0,
+          "expected_pages": [
+            2
+          ],
+          "expected_files": [
+            "西门子产品A控制器手册.pdf",
+            "西门子产品B电源手册.pdf"
+          ],
+          "returned_citations": [
+            {
+              "chunk_id": "pm_a_env_p2",
+              "file_name": "西门子产品A控制器手册.pdf",
+              "page_start": 2,
+              "page_end": 2,
+              "score": 0.7788
+            },
+            {
+              "chunk_id": "pm_b_env_p2",
+              "file_name": "西门子产品B电源手册.pdf",
+              "page_start": 2,
+              "page_end": 2,
+              "score": 0.7408
+            },
+            {
+              "chunk_id": "pm_a_power_p2",
+              "file_name": "西门子产品A控制器手册.pdf",
+              "page_start": 2,
+              "page_end": 2,
+              "score": 0.6173
+            }
+          ],
+          "page_citation_ok": true,
+          "content_ok": true,
+          "latency_seconds": 6.278,
+          "answer_preview": "产品A控制器的工作温度范围为 -20 °C 至 60 °C（依据：西门子产品A控制器手册.pdf，第 2-2 页）；  \n产品B电源的工作温度范围为 -25 °C 至 70 °C（依据：西门子产品B电源手册.pdf，第 2-2 页）。"
+        },
+        {
+          "id": "content_020",
+          "question": "产品A和产品B分别是什么类型的产品？",
+          "actual_intent": "rag_qa",
+          "intent_ok": true,
+          "expected_facts": [
+            "产品A",
+            "控制器",
+            "产品B",
+            "电源模块"
+          ],
+          "fact_coverage": 1.0,
+          "expected_pages": [
+            1
+          ],
+          "expected_files": [
+            "西门子产品A控制器手册.pdf",
+            "西门子产品B电源手册.pdf"
+          ],
+          "returned_citations": [
+            {
+              "chunk_id": "pm_b_overview_p1",
+              "file_name": "西门子产品B电源手册.pdf",
+              "page_start": 1,
+              "page_end": 1,
+              "score": 0.7428
+            },
+            {
+              "chunk_id": "pm_a_overview_p1",
+              "file_name": "西门子产品A控制器手册.pdf",
+              "page_start": 1,
+              "page_end": 1,
+              "score": 0.7291
+            },
+            {
+              "chunk_id": "pm_b_power_p2",
+              "file_name": "西门子产品B电源手册.pdf",
+              "page_start": 2,
+              "page_end": 2,
+              "score": 0.4862
+            }
+          ],
+          "page_citation_ok": true,
+          "content_ok": true,
+          "latency_seconds": 6.27,
+          "answer_preview": "产品A是控制器，定位为控制器，用于小型自动化设备的紧凑型控制器（依据：西门子产品A控制器手册.pdf，第 1-1 页）。  \n产品B是电源模块，定位为电源模块，用于工业控制柜的开关电源（依据：西门子产品B电源手册.pdf，第 1-1 页）。"
+        }
+      ]
+    }
+  ]
+}
