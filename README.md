@@ -219,6 +219,7 @@ RAG 检索由 `HybridLangChainRetriever` 封装，兼容 LangChain Retriever 接
 
 ## 四、结果展示
 
+<img width="1848" height="891" alt="image" src="https://github.com/user-attachments/assets/79eec7ec-09e1-4628-9693-071b0d95c13e" />
 
 ## 项目架构
 
